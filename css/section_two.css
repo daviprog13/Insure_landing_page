@@ -1,0 +1,50 @@
+.section_two .box_section_two{
+ background-color: hsl(256, 26%, 20%);
+ padding: 50px;
+ margin-top: 40px;
+ position: relative;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.section_two .box_section_two h3{
+  font-family: 'DM Serif Display', serif;  
+  font-size: 55px;
+  color: #fff;
+}
+
+.section_two .box_section_two button{
+  border: 2px solid white;
+  padding: 10px;
+  color: black;
+  background-color: transparent;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  transition: .2s ease-in-out;
+  color: #fff;
+  z-index: 10;
+}
+
+.section_two .box_section_two button:hover{
+  color: black;
+  background-color: white;
+}
+
+.section_two .box_section_two .line_four{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@media (max-width:800px){
+  .section_two .box_section_two{
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+   }
+   .section_two .box_section_two h3{
+    font-size: 40px;
+   }
+}
